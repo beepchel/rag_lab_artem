@@ -1,0 +1,2890 @@
+{
+  "question_count": 30,
+  "aggregate": {
+    "1": {
+      "precision": 0.833333,
+      "recall": 0.833333,
+      "hit": 0.833333,
+      "reciprocal_rank": 0.833333
+    },
+    "3": {
+      "precision": 0.311111,
+      "recall": 0.933333,
+      "hit": 0.933333,
+      "reciprocal_rank": 0.866667
+    },
+    "5": {
+      "precision": 0.186667,
+      "recall": 0.933333,
+      "hit": 0.933333,
+      "reciprocal_rank": 0.866667
+    },
+    "10": {
+      "precision": 0.096667,
+      "recall": 0.966667,
+      "hit": 0.966667,
+      "reciprocal_rank": 0.873333
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "question": "Сколько действует обычная пользовательская сессия?",
+      "relevant_doc_ids": [
+        "doc_01"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.20048
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.0
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.0
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.0
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.0
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:1:1beb59f55697ab1d",
+          "score": 0.0
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.0
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:1:467440e055637a66",
+          "score": 0.0
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.0
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:1:9afad319a9efff47",
+          "score": 0.0
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q002",
+      "question": "Через сколько дней без активности блокируется учётная запись?",
+      "relevant_doc_ids": [
+        "doc_01"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.273282
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.077683
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:1:467440e055637a66",
+          "score": 0.058036
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.057765
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.049696
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:1:f1fd240fd13d4dc6",
+          "score": 0.038226
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:0:853f2760dea6344c",
+          "score": 0.021659
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.021026
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.0
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.0
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q003",
+      "question": "Каков целевой срок восстановления доступа через поддержку?",
+      "relevant_doc_ids": [
+        "doc_01"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.138419
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.105007
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:1:f1fd240fd13d4dc6",
+          "score": 0.1047
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.093532
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.052482
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.042648
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:0:49e649bccdce7362",
+          "score": 0.041126
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:1:92ad00dad2b49697",
+          "score": 0.032515
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:0:853f2760dea6344c",
+          "score": 0.02854
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.025249
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q004",
+      "question": "Какой максимальный размер одного загружаемого файла?",
+      "relevant_doc_ids": [
+        "doc_02"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.227136
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:1:a33e02ad6fcd214f",
+          "score": 0.107271
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.089402
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:0:49e649bccdce7362",
+          "score": 0.086945
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:1:92ad00dad2b49697",
+          "score": 0.056723
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.046285
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.027243
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.0
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.0
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.0
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q005",
+      "question": "Можно ли загрузить ZIP и какие текстовые форматы поддерживаются?",
+      "relevant_doc_ids": [
+        "doc_02"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.138534
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:1:5700317ad440fdb6",
+          "score": 0.087507
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.071264
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.060587
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.057904
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.048005
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:0:853f2760dea6344c",
+          "score": 0.044726
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.044326
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.040061
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.039557
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q006",
+      "question": "Какой статус означает, что индекс готов, но документ ещё не опубликован?",
+      "relevant_doc_ids": [
+        "doc_02"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.234377
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:0:87b8b96da6a8a129",
+          "score": 0.100524
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:0:49e649bccdce7362",
+          "score": 0.091587
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.07832
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.067881
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.063949
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:1:92ad00dad2b49697",
+          "score": 0.061495
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.043701
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.037626
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:1:9afad319a9efff47",
+          "score": 0.03756
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q007",
+      "question": "Какая роль может публиковать и отклонять версии документов?",
+      "relevant_doc_ids": [
+        "doc_03"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.265399
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.214091
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:1:f1fd240fd13d4dc6",
+          "score": 0.091279
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:1:7fc13e032e031365",
+          "score": 0.08684
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.081471
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.078336
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.072569
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:1:1beb59f55697ab1d",
+          "score": 0.067915
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.053954
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:0:d5222008d5848ac5",
+          "score": 0.052306
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q008",
+      "question": "Какое требование предъявляется к причине отклонения версии?",
+      "relevant_doc_ids": [
+        "doc_03"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.132965
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:1:1beb59f55697ab1d",
+          "score": 0.130896
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.088469
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.08778
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.087146
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.065085
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.06451
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:1:7fc13e032e031365",
+          "score": 0.061822
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.046428
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.045695
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q009",
+      "question": "Что произойдёт с текущей активной версией, если публикация новой версии не завершилась?",
+      "relevant_doc_ids": [
+        "doc_03"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:1:1beb59f55697ab1d",
+          "score": 0.336217
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.225233
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:1:9afad319a9efff47",
+          "score": 0.107863
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.101387
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:1:7fc13e032e031365",
+          "score": 0.09919
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.077286
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.060906
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:1:f1fd240fd13d4dc6",
+          "score": 0.056528
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.042402
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:0:87b8b96da6a8a129",
+          "score": 0.03747
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q010",
+      "question": "В течение какого срока можно восстановить архивированный документ?",
+      "relevant_doc_ids": [
+        "doc_04"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.256577
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:0:49e649bccdce7362",
+          "score": 0.110667
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:1:a33e02ad6fcd214f",
+          "score": 0.063718
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.060036
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:1:f1fd240fd13d4dc6",
+          "score": 0.052758
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.051596
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.049911
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:1:467440e055637a66",
+          "score": 0.047201
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:1:5700317ad440fdb6",
+          "score": 0.046595
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.042912
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q011",
+      "question": "Сколько действует временная ссылка на скачивание исходника?",
+      "relevant_doc_ids": [
+        "doc_04"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:1:467440e055637a66",
+          "score": 0.195718
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.106795
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:0:87b8b96da6a8a129",
+          "score": 0.095663
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.059254
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:0:49e649bccdce7362",
+          "score": 0.051006
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:1:0669b132a138ad90",
+          "score": 0.050296
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:1:5700317ad440fdb6",
+          "score": 0.03242
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:1:a33e02ad6fcd214f",
+          "score": 0.030707
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.026591
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:0:853f2760dea6344c",
+          "score": 0.016571
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q012",
+      "question": "Что удаляется при безвозвратном удалении документа?",
+      "relevant_doc_ids": [
+        "doc_04"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:1:9afad319a9efff47",
+          "score": 0.105934
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:0:87b8b96da6a8a129",
+          "score": 0.105531
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.090802
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:1:7fc13e032e031365",
+          "score": 0.069498
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.068152
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.065262
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.061913
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:1:5700317ad440fdb6",
+          "score": 0.052134
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:0:49e649bccdce7362",
+          "score": 0.049895
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.049825
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "hit": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "hit": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        "5": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "hit": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        "10": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "hit": 0.0,
+          "reciprocal_rank": 0.0
+        }
+      }
+    },
+    {
+      "id": "q013",
+      "question": "Назовите целевой размер, максимум и overlap фрагмента в рабочем VirtHelp.",
+      "relevant_doc_ids": [
+        "doc_05"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.274498
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:1:7fc13e032e031365",
+          "score": 0.102741
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.09301
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.079431
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:0:d5222008d5848ac5",
+          "score": 0.07771
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.074856
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.069329
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.064608
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.048508
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:1:1beb59f55697ab1d",
+          "score": 0.044358
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q014",
+      "question": "Какова размерность вектора в текущей схеме индекса?",
+      "relevant_doc_ids": [
+        "doc_05"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:1:9afad319a9efff47",
+          "score": 0.286839
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.212831
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.054745
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.04286
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:1:1beb59f55697ab1d",
+          "score": 0.037767
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.025576
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.021433
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:0:49e649bccdce7362",
+          "score": 0.02049
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.016023
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:1:0669b132a138ad90",
+          "score": 0.015153
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q015",
+      "question": "От каких данных зависит стабильный идентификатор фрагмента?",
+      "relevant_doc_ids": [
+        "doc_05"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.168861
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:1:7fc13e032e031365",
+          "score": 0.089846
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.085798
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:1:92ad00dad2b49697",
+          "score": 0.075762
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.057388
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:1:a33e02ad6fcd214f",
+          "score": 0.033229
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:0:d5222008d5848ac5",
+          "score": 0.031508
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.01843
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:0:49e649bccdce7362",
+          "score": 0.018399
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:0:853f2760dea6344c",
+          "score": 0.017932
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q016",
+      "question": "Какие два канала используются в гибридном поиске и как объединяются результаты?",
+      "relevant_doc_ids": [
+        "doc_06"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:1:1beb59f55697ab1d",
+          "score": 0.112413
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.107913
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:0:d5222008d5848ac5",
+          "score": 0.107138
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.106588
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.089485
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.086722
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:1:5700317ad440fdb6",
+          "score": 0.077911
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.075639
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.066268
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.052922
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "hit": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "id": "q017",
+      "question": "Какое значение top_k используется по умолчанию в учебной конфигурации?",
+      "relevant_doc_ids": [
+        "doc_06"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:0:d5222008d5848ac5",
+          "score": 0.355068
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.102221
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:0:853f2760dea6344c",
+          "score": 0.095278
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.081016
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:1:a33e02ad6fcd214f",
+          "score": 0.046485
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.042223
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:1:5700317ad440fdb6",
+          "score": 0.039102
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.038408
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.036011
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:1:9afad319a9efff47",
+          "score": 0.03106
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q018",
+      "question": "Что происходит, когда реранжировщик недоступен?",
+      "relevant_doc_ids": [
+        "doc_06"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:1:7fc13e032e031365",
+          "score": 0.150895
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:0:d5222008d5848ac5",
+          "score": 0.105834
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:0:87b8b96da6a8a129",
+          "score": 0.053908
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:1:9afad319a9efff47",
+          "score": 0.043536
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.041776
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.030067
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.028791
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.028217
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.0
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.0
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q019",
+      "question": "Какие соседние фрагменты добавляет parent-child расширение?",
+      "relevant_doc_ids": [
+        "doc_06"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:1:7fc13e032e031365",
+          "score": 0.289535
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:0:d5222008d5848ac5",
+          "score": 0.144793
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:1:467440e055637a66",
+          "score": 0.033112
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:1:9afad319a9efff47",
+          "score": 0.02746
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.018964
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.018068
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.0
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.0
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.0
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.0
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q020",
+      "question": "Как должен ответить генератор, если в источниках нет нужной информации?",
+      "relevant_doc_ids": [
+        "doc_07"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.298412
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.084614
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.067973
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:1:1beb59f55697ab1d",
+          "score": 0.06389
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.053524
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:1:f1fd240fd13d4dc6",
+          "score": 0.04463
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.031186
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.02866
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.025471
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:1:92ad00dad2b49697",
+          "score": 0.023324
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q021",
+      "question": "Какие temperature и предел выходных токенов заданы для учебной генерации?",
+      "relevant_doc_ids": [
+        "doc_07"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:0:853f2760dea6344c",
+          "score": 0.146132
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.126709
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.116437
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.097697
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.095592
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:0:d5222008d5848ac5",
+          "score": 0.084302
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.079686
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.063809
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:1:5700317ad440fdb6",
+          "score": 0.061844
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.060732
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "hit": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "id": "q022",
+      "question": "Можно ли считать историю диалога доказательством ответа?",
+      "relevant_doc_ids": [
+        "doc_07"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.283705
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.095701
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:1:5700317ad440fdb6",
+          "score": 0.043143
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.022663
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.022549
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:0:853f2760dea6344c",
+          "score": 0.022051
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.0
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.0
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.0
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.0
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q023",
+      "question": "Может ли монитор базы знаний публиковать документ?",
+      "relevant_doc_ids": [
+        "doc_08"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.230537
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.127377
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.075068
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.067034
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:1:7fc13e032e031365",
+          "score": 0.048192
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:0:d5222008d5848ac5",
+          "score": 0.033801
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.027269
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.016983
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:0:853f2760dea6344c",
+          "score": 0.01686
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.0
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "hit": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        "3": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "hit": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        "5": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "hit": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 0.2
+        }
+      }
+    },
+    {
+      "id": "q024",
+      "question": "Что может делать внутренний аудитор и чего он делать не может?",
+      "relevant_doc_ids": [
+        "doc_08"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:1:92ad00dad2b49697",
+          "score": 0.134443
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:1:7fc13e032e031365",
+          "score": 0.122185
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:1:f1fd240fd13d4dc6",
+          "score": 0.121508
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.109142
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.108721
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.099679
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.098839
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:0:d5222008d5848ac5",
+          "score": 0.098004
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.095893
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.090207
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "hit": 0.0,
+          "reciprocal_rank": 0.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "id": "q025",
+      "question": "Как быстро нужно подтвердить P1 и как часто сообщать статус?",
+      "relevant_doc_ids": [
+        "doc_09"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:0:49e649bccdce7362",
+          "score": 0.149786
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.131151
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.129371
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.090679
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.034321
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.025109
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.022693
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.022408
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.021691
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:1:0669b132a138ad90",
+          "score": 0.021462
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q026",
+      "question": "Каковы сроки реакции и обновления статуса для P2?",
+      "relevant_doc_ids": [
+        "doc_09"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:0:49e649bccdce7362",
+          "score": 0.16982
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.154582
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.067075
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.061784
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.05545
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:1:f1fd240fd13d4dc6",
+          "score": 0.04897
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.04827
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:0:853f2760dea6344c",
+          "score": 0.046519
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.043865
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:1:0669b132a138ad90",
+          "score": 0.041484
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q027",
+      "question": "Сколько хранятся события обязательного аудита?",
+      "relevant_doc_ids": [
+        "doc_10"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.414179
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:1:92ad00dad2b49697",
+          "score": 0.154654
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:1:467440e055637a66",
+          "score": 0.122993
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.067113
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.0
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.0
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.0
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.0
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.0
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:1:1beb59f55697ab1d",
+          "score": 0.0
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q028",
+      "question": "Сравните сроки хранения технических журналов и агрегированных метрик.",
+      "relevant_doc_ids": [
+        "doc_10"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_10",
+          "chunk_id": "doc_10:0:6babb82a34037e26",
+          "score": 0.242116
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:1:0669b132a138ad90",
+          "score": 0.098616
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:1:f1fd240fd13d4dc6",
+          "score": 0.069963
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.069196
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.025385
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.025066
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.024264
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.023902
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_09",
+          "chunk_id": "doc_09:1:a33e02ad6fcd214f",
+          "score": 0.021986
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:0:d5222008d5848ac5",
+          "score": 0.019821
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q029",
+      "question": "Какие модели указаны для embedding, reranking и генерации?",
+      "relevant_doc_ids": [
+        "doc_11"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:0:853f2760dea6344c",
+          "score": 0.215513
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_11",
+          "chunk_id": "doc_11:1:5700317ad440fdb6",
+          "score": 0.152353
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:1:9afad319a9efff47",
+          "score": 0.084466
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_05",
+          "chunk_id": "doc_05:0:bf77fe19cefab7ae",
+          "score": 0.074834
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:0:415768300ac5200e",
+          "score": 0.068649
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:1:f72f8ed0403adf8a",
+          "score": 0.058581
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_07",
+          "chunk_id": "doc_07:0:369313543ac671d0",
+          "score": 0.058333
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:1:f1fd240fd13d4dc6",
+          "score": 0.054412
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:0:21a0c07d3a74d215",
+          "score": 0.053634
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_01",
+          "chunk_id": "doc_01:1:4468cbf6a86c4df2",
+          "score": 0.048739
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    },
+    {
+      "id": "q030",
+      "question": "Сколько постоянно работающих контейнеров ожидается после полного запуска?",
+      "relevant_doc_ids": [
+        "doc_12"
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:1:0669b132a138ad90",
+          "score": 0.398651
+        },
+        {
+          "rank": 2,
+          "document_id": "doc_12",
+          "chunk_id": "doc_12:0:87b8b96da6a8a129",
+          "score": 0.180328
+        },
+        {
+          "rank": 3,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:0:2dd7ac6667a48216",
+          "score": 0.059348
+        },
+        {
+          "rank": 4,
+          "document_id": "doc_04",
+          "chunk_id": "doc_04:1:467440e055637a66",
+          "score": 0.049321
+        },
+        {
+          "rank": 5,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:1:1beb59f55697ab1d",
+          "score": 0.031993
+        },
+        {
+          "rank": 6,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:0:9a13f6e167efb737",
+          "score": 0.021733
+        },
+        {
+          "rank": 7,
+          "document_id": "doc_03",
+          "chunk_id": "doc_03:0:8eb6dc26a5bfa3a6",
+          "score": 0.021666
+        },
+        {
+          "rank": 8,
+          "document_id": "doc_08",
+          "chunk_id": "doc_08:1:f1fd240fd13d4dc6",
+          "score": 0.01866
+        },
+        {
+          "rank": 9,
+          "document_id": "doc_02",
+          "chunk_id": "doc_02:1:d2fd290f929de4d2",
+          "score": 0.015768
+        },
+        {
+          "rank": 10,
+          "document_id": "doc_06",
+          "chunk_id": "doc_06:1:7fc13e032e031365",
+          "score": 0.015111
+        }
+      ],
+      "metrics": {
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "3": {
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "5": {
+          "precision": 0.2,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        },
+        "10": {
+          "precision": 0.1,
+          "recall": 1.0,
+          "hit": 1.0,
+          "reciprocal_rank": 1.0
+        }
+      }
+    }
+  ],
+  "configuration": {
+    "backend": "tfidf",
+    "chunk_size": 120,
+    "overlap": 40,
+    "chunk_count": 24,
+    "avg_length": 88.92,
+    "questions": "data/dev_questions.json",
+    "questions_sha256": "9e901a5320df232481b67479a86a9e0447a1b7081631b18ab84d23877990fe77"
+  }
+}

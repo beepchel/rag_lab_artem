@@ -1,0 +1,60 @@
+{
+  "fixed_at": "2026-09-28",
+  "status": "зафиксировано до открытия test",
+  "configuration": {
+    "backend": "tfidf",
+    "chunk_size": 120,
+    "overlap": 60
+  },
+  "top_k": 3,
+  "top_k_meaning": "параметр --top-k у run.py retrieve и answer: сколько фрагментов уходит в контекст ответа (по умолчанию 5); это не k метрик — метрики считаются при k из metrics_k",
+  "top_k_reason": "выбран на dev после сравнения k, до test: при k = 5 не найдено ни одного вопроса сверх k = 3 (Hit@3 = Hit@5 = 0.933, MRR@3 = MRR@5 = 0.894), а контекст больше (около 300 слов против 500); top_k = 10 даёт +1 вопрос ценой около 1000 слов",
+  "metrics_k": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "k_definition": "первые k фрагментов, релевантность по документам (схема README)",
+  "selection_rule": "report/experiment_report.md, «Гипотеза до запуска»: главная метрика MRR@5; если лучшие почти равны по MRR@5 (разница в пределах шума, порядка одного вопроса) — ничья, решает Hit@1; затем меньший overlap",
+  "dev": {
+    "questions": "data/dev_questions.json",
+    "questions_sha256": "9e901a5320df232481b67479a86a9e0447a1b7081631b18ab84d23877990fe77",
+    "results": "results/sweep_overlap/overlap_60.json",
+    "metrics": {
+      "1": {
+        "precision": 0.866667,
+        "recall": 0.866667,
+        "hit": 0.866667,
+        "reciprocal_rank": 0.866667
+      },
+      "3": {
+        "precision": 0.311111,
+        "recall": 0.933333,
+        "hit": 0.933333,
+        "reciprocal_rank": 0.894444
+      },
+      "5": {
+        "precision": 0.186667,
+        "recall": 0.933333,
+        "hit": 0.933333,
+        "reciprocal_rank": 0.894444
+      },
+      "10": {
+        "precision": 0.096667,
+        "recall": 0.966667,
+        "hit": 0.966667,
+        "reciprocal_rank": 0.901111
+      }
+    }
+  },
+  "code": {
+    "lab_files": "без изменений, совпадают с исходным архивом",
+    "scripts/harness.py": "8519e09d238f5fcae5419ff63d0d94ea9b9fc85f6be3c47487b88ae929a44f56",
+    "scripts/report.py": "2f24eda8222dae067fb1363ba6c14f9b7c1204645c856687072a4687896767a4",
+    "scripts/explain_query.py": "9a20c469ccac20968a28e2e94f29ebcdb31c9a2ed039dc9b207055d95aa4af3d"
+  },
+  "test_command": "$gold = \"<путь к размеченному test у руководителя>\"; foreach ($k in 1, 3, 5, 10) { python run.py evaluate --questions $gold --backend tfidf --chunk-size 120 --overlap 60 --k $k --output results/test_k$k.json }",
+  "test_command_note": "в $gold подставить путь к test с метками (в копии участника папки instructor/ нет, а data/test_questions.json без меток); исходный evaluate с одним k за запуск считает метрики так же, как scripts/harness.py (проверено на dev с $gold = data/dev_questions.json)",
+  "code_note": "2026-09-28: скрипты переписаны проще (harness.py, report.py, explain_query.py без параметров командной строки), в JSON прогонов добавлена средняя длина фрагмента, JSON пишутся с переводами строк LF на любой ОС; метрики не изменились; explain_query.py сохраняет разбор в файл (results/explain/), разбор не изменился"
+}
